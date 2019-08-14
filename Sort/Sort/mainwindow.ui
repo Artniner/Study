@@ -37,10 +37,45 @@
     </item>
     <item>
      <layout class="QGridLayout" name="gridLayout">
+      <item row="1" column="0">
+       <widget class="QPushButton" name="btn_shell">
+        <property name="text">
+         <string>希尔排序</string>
+        </property>
+       </widget>
+      </item>
       <item row="0" column="1">
        <widget class="QPushButton" name="btn_selection">
         <property name="text">
          <string>选择排序</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QPushButton" name="btn_heap">
+        <property name="text">
+         <string>堆排序</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QPushButton" name="btn_insertion">
+        <property name="text">
+         <string>插入排序</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QPushButton" name="btn_merge">
+        <property name="text">
+         <string>归并排序</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="2">
+       <widget class="QPushButton" name="btn_quick">
+        <property name="text">
+         <string>快速排序</string>
         </property>
        </widget>
       </item>
@@ -51,10 +86,24 @@
         </property>
        </widget>
       </item>
-      <item row="0" column="2">
-       <widget class="QPushButton" name="btn_insertion">
+      <item row="2" column="1">
+       <widget class="QPushButton" name="btn_count">
         <property name="text">
-         <string>插入排序</string>
+         <string>计数排序</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="2">
+       <widget class="QPushButton" name="btn_bucket">
+        <property name="text">
+         <string>桶排序</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QPushButton" name="btn_radix">
+        <property name="text">
+         <string>基数排序</string>
         </property>
        </widget>
       </item>
